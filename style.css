@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+
+body {
+    height: 100vh;
+    background-image: url(https://img.freepik.com/vetores-gratis/copie-o-fundo-digital-dos-circuitos-azuis-do-espaco_23-2148821699.jpg?t=st=1729443395~exp=1729446995~hmac=7b60252fb7e3d39811081129b5b7ffa864862d9189750a1c0685fb1fa9e0ae34&w=1380);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 5px 8px;
+    height: 250px;
+    width: 550px;
+}
+
+.relogio div{
+    display: flex;
+    background-color:#191970;
+    height: 200px;
+    width: 160px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px; 
+}
+.relogio span{
+    display: flex; 
+    font-size: 100px;
+    color: #98F7FC;   
+}
+
+h2 {
+    display: flex;
+    font-size: 30px;
+    color: #98F7FC;
+    height: 10px;
+}
+
+p {
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    color: #98F7FC;
+}
